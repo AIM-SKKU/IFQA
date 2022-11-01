@@ -59,7 +59,7 @@ def main(config):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--f_path', type=str, default="./docs/", help='file path or folder path')
+    parser.add_argument('--f_path', type=str, default="./docs/00021_Blurred.png", help='file path or folder path')
     config = parser.parse_args()
     print(config)
     main(config)

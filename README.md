@@ -33,11 +33,13 @@ python test.py --path=./testA
 ## Citation
 
 ```
-@inproceedings{Jo2023,
-  author = {Byungho Jo and Donghyeon Cho and In Kyu Park and Sungeun Hong},
+@inproceedings{Jo_2023_WACV,
+  author = {Byungho, Jo and Cho, Donghyeon and Park, In Kyu and Hong, Sungeun},
   title = {IFQA: Interpretable Face Quality Assessment},
-  booktitle = {Proc. WACV},
-  year = {2023}
+  booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  month = {January},
+  year = {2023},
+  pages = {-}
 }
 ```
 

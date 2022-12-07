@@ -1,4 +1,4 @@
-## IFQA - Official Pytorch Implementation
+## IFQA - Official Pytorch Implementation [[Project Page]](https://sites.google.com/view/vcl-lab/publications/international-conference/ifqa_wacv23)
 
 <img src="./docs/teaser.png" width="400">
  

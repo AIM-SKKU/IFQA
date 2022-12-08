@@ -13,7 +13,7 @@ Recent works have therefore assessed their methods using human studies, which is
 
 ## Additional material
 - [IFQA pre-trained model](https://drive.google.com/file/d/1aHxF39Mdg4R2dFiF_yx8HsJHy9lJaEZP/view?usp=sharing)
-- [Video]
+- [Video](https://www.youtube.com/watch?v=h21KM5qRAXs)
 
 ## Requirements
 * 64-bit Python 3.7 and PyTorch 1.7.0 (or later). See https://pytorch.org for PyTorch install instructions.

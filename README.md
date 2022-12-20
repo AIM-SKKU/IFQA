@@ -4,7 +4,7 @@
  
 > **IFQA: Interpretable Face Quality Assessment**<br>
 > Byungho Jo, Donghyeon Cho, In Kyu Park, Sungeun Hong<br>
-> In WACV 2023
+> In IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2023
 
 > Paper: [https://arxiv.org/abs/2211.07077](https://arxiv.org/abs/2211.07077) <br>
 
@@ -16,8 +16,15 @@ Recent works have therefore assessed their methods using human studies, which is
 - [Video](https://www.youtube.com/watch?v=h21KM5qRAXs)
 
 ## Requirements
-* 64-bit Python 3.7 and PyTorch 1.7.0 (or later). See https://pytorch.org for PyTorch install instructions.
-* Albumentations. See https://albumentations.ai/ for Albumentations install instructions.
+* OS: Windows/Ubuntu
+* 64-bit Python 3.7
+* PyTorch 1.7.0 (or later). <!--See https://pytorch.org for PyTorch install instructions.-->
+* Albumentations. <!--See https://albumentations.ai/ for Albumentations install instructions.-->
+
+## Install dependencies
+```shell
+pip install -r requirements.txt
+```
 
 ## Usage
 IFQA is designed for evaluating the realness of faces. IFQA produces score maps of each pixel and we apply average to get final score.
@@ -35,7 +42,7 @@ python test.py --path=./testA
 
 ```
 @inproceedings{Jo_2023_WACV,
-  author = {Byungho, Jo and Cho, Donghyeon and Park, In Kyu and Hong, Sungeun},
+  author = {Jo, Byungho and Cho, Donghyeon and Park, In Kyu and Hong, Sungeun},
   title = {IFQA: Interpretable Face Quality Assessment},
   booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
   month = {January},

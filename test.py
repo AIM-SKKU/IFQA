@@ -32,7 +32,7 @@ def evaluate_img(img_path, model):
     img = read_image(img_path)
     with torch.no_grad():
         p_map = model(img)
-        sum = torch.sum(p_map) / (3*256*256)
+        sum = torch.sum(p_map) / (256*256)
         score = round(torch.mean(sum).detach().cpu().item(), 4)
     p_map = p_map.squeeze().cpu().numpy()
     p_map = p_map[..., np.newaxis]

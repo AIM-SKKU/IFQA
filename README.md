@@ -47,19 +47,7 @@ python test.py --path=./docs/00021_Blurred.png
 # All images within a directory.
 python test.py --path=./docs
 ```
-
-## Citation
-
-```
-@inproceedings{Jo_2023_WACV,
-  author = {Jo, Byungho and Cho, Donghyeon and Park, In Kyu and Hong, Sungeun},
-  title = {IFQA: Interpretable Face Quality Assessment},
-  booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-  month = {January},
-  year = {2023},
-  pages = {3444-3453}
-}
-```
+ 
 
 ## Acknowledgements
 
